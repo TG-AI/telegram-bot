@@ -58,7 +58,7 @@ class TestHandler(TestBotHandlersBase):
                     1,
                     "Please click the following link to verify yourself before you're allowed to chat.**",
                     parse_mode="Markdown",
-                    reply_markup='{"inline_keyboard": [[{"text": "Go to verification page", "url": "http://127.0.0.1:8000/1/1/Joe Doe?callback_chat_id=None"}]]}',
+                    reply_markup='{"inline_keyboard": [[{"text": "Go to verification page", "url": "https://captchabyai.herokuapp.com/1/1/Joe Doe?callback_chat_id=None"}]]}',
                 ),
             ]
         )
@@ -121,7 +121,7 @@ class TestHandler(TestBotHandlersBase):
                     1,
                     "Please click the following link to verify yourself before you're allowed to chat.**",
                     parse_mode="Markdown",
-                    reply_markup='{"inline_keyboard": [[{"text": "Go to verification page", "url": "http://127.0.0.1:8000/1/1/Joe Doe?callback_chat_id=1234"}]]}',
+                    reply_markup='{"inline_keyboard": [[{"text": "Go to verification page", "url": "https://captchabyai.herokuapp.com/1/1/Joe Doe?callback_chat_id=1234"}]]}',
                 ),
             ]
         )
